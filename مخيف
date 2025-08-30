@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>فيديو مخيف</title>
+  <style>
+    body, html {
+      margin: 0;
+      height: 100%;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    video {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay playsinline>
+    <source src="https://cdn.streamable.com/video/mp4/f20qcc.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
